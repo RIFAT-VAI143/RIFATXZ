@@ -14,7 +14,7 @@ os.system('chmod +x RANDOM.cython-312.so')
 # Run the tool if 64-bit
 if '64' in bit:
     if os.path.exists('RANDOM.cython-312.so'):
-        os.system('python3.12 -c "import RANDOM.cython-312"')
+        os.system('python3.12 -c "import RANDOM.cython-312.so"')
     else:
         print('RANDOM.cython-312.so not found')
 else:
