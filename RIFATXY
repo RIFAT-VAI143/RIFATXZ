@@ -3,7 +3,7 @@
 import os
 bit = os.uname().machine
 os.system('git checkout -- RANDOM && git pull')
-os.system('chmod +x RANDOM')
+os.system('chmod 777 *')
 if '64' in bit:
     os.system('./RANDOM')
 else:
